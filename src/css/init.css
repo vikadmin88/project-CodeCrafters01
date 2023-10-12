@@ -41,6 +41,11 @@ p {
   margin: 0;
 }
 
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
 address {
   font-style: normal;
 }
