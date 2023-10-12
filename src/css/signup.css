@@ -11,15 +11,11 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 0.04em;
+  letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
 .signup-title-accent {
   color: var(--c-accent);
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.04em;
 }
 .signup-note {
   /* width: 100%; */
@@ -27,7 +23,7 @@
   color: var(--c-main);
   font-size: 14px;
   line-height: 1.28;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   margin-bottom: 40px;
 }
 .signup-form {
@@ -93,6 +89,7 @@
   color: var(--c-main-tr);
   font-size: 12px;
   line-height: 1.33;
+  letter-spacing: -0.02em;
 }
 .signup-policy-link {
   color: var(--c-main-tr);
