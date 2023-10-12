@@ -62,6 +62,7 @@
   border: 1px solid rgba(255, 255, 255, 0.20);
   background-color: transparent;
   outline: transparent;
+  resize: none;
   padding: 14px 18px;
 }
 .input-textarea::placeholder {
@@ -94,7 +95,7 @@
   font-size: 12px;
   line-height: 1.33;
 }
-.signup-policy-privacy {
+.signup-policy-link {
   color: var(--c-main-tr);
   font-size: 12px;
   line-height: 1.33;
