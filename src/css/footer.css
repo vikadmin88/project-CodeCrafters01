@@ -1,0 +1,38 @@
+.footer-class {
+  padding: 40px 0 20px 20px;
+}
+.footer-container {
+  width: 100%;
+  height: 535px;
+  outline: 2px solid tomato;
+  outline-offset: -2px;
+}
+
+.focus-frame-one {
+  width: 123px;
+  height: 16px;
+  flex-shrink: 0;
+  fill: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
