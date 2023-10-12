@@ -1,9 +1,12 @@
+.our-mentors{
+    padding: 40px auto;
+}
 .mentors-title{
 color: var(--c-main);
 font-size: 28px;
 font-weight: 500;
 line-height: 1.14;
-letter-spacing: -1.12px;
+letter-spacing: 0.04em;
 margin-bottom: 40px;
 }
 
@@ -19,12 +22,12 @@ font-weight: 500;
 line-height: 1.2; 
 }
 .mentors-description{
-    color: rgba(255, 255, 255, 0.50);
+    color: var(--c-main-tr);
     text-align: center;
 font-size: 12px;
 font-weight: 400;
 line-height: 1.33;
-letter-spacing: -0.24px;
+letter-spacing: -0.02em;
 }
 
 .mentors-list{
@@ -39,8 +42,12 @@ letter-spacing: -0.24px;
     .mentors-title{
 font-size: 48px;
 line-height: 1.12;
-letter-spacing: -1.92px;
+letter-spacing: -0.04em;
 margin-bottom: 50px;
+    }
+
+    .our-mentors{
+        padding: 50px auto;
     }
 
     .mentors-name{
@@ -53,7 +60,7 @@ line-height: 1.14;
 font-size: 14px;
 font-weight: 400;
 line-height: 1.28; 
-letter-spacing: -0.28px;
+letter-spacing: -0.02em;
     }
 
     .mentors-list{
@@ -69,4 +76,19 @@ letter-spacing: -0.28px;
     .mentors-list{
         flex-wrap: nowrap;
     }
+
+    .our-mentors{
+        padding: 75px auto;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .our-mentors{
+        padding: 75px auto;
+    }
+
+    .mentors-list{
+        flex-wrap: nowrap;
+    }
+
 }
