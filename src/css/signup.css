@@ -4,7 +4,8 @@
 .container {
 }
 .signup-form-box {
-
+  /* width: 100%; */
+  /* max-width: 295px; */
 }
 .signup-title {
   color: var(--c-main);
@@ -18,7 +19,6 @@
   color: var(--c-accent);
 }
 .signup-note {
-  /* width: 100%; */
   max-width: 295px;
   color: var(--c-main);
   font-size: 14px;
@@ -36,7 +36,7 @@
 }
 .input-text {
   width: 100%;
-  max-width: 335px;
+  /* max-width: 335px; */
   height: 46px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.20);
@@ -52,7 +52,7 @@
 }
 .input-textarea {
   width: 100%;
-  max-width: 335px;
+  /* max-width: 335px; */
   height: 112px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.20);
@@ -69,7 +69,7 @@
 }
 .form-btn {
   /* width: 100%; */
-  max-width: 335px;
+  /* max-width: 335px; */
   border-radius: 12px;
   border: none;
   outline: none;
@@ -78,6 +78,8 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 1.25;
+  /* ? */
+  /* letter-spacing: 0.04em; */
   text-transform: uppercase;
   background: var(--c-main);
   margin-top: 40px;
@@ -85,7 +87,7 @@
 }
 .signup-policy {
   /* width: 100%; */
-  max-width: 335px;
+  /* max-width: 335px; */
   color: var(--c-main-tr);
   font-size: 12px;
   line-height: 1.33;
@@ -96,4 +98,28 @@
   font-size: 12px;
   line-height: 1.33;
   text-decoration-line: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    /* width: 100%; */
+    max-width: 544px;
+  }
+  .signup-title {
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+  }
+  .signup-note {
+    max-width: 480px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+  .signup-policy {
+    max-width: 480px;
+    font-size: 14px;
+    line-height: 1.28;
+    /* letter-spacing: 0.04em; */
+  }
 }
