@@ -22,7 +22,7 @@
   letter-spacing: 0.04em;
 }
 .signup-note {
-  width: 100%;
+  /* width: 100%; */
   max-width: 295px;
   color: var(--c-main);
   font-size: 14px;
@@ -72,7 +72,7 @@
   opacity: 0.7;
 }
 .form-btn {
-  width: 100%;
+  /* width: 100%; */
   max-width: 335px;
   border-radius: 12px;
   border: none;
@@ -88,7 +88,7 @@
   padding: 14px 127px;
 }
 .signup-policy {
-  width: 100%;
+  /* width: 100%; */
   max-width: 335px;
   color: var(--c-main-tr);
   font-size: 12px;
