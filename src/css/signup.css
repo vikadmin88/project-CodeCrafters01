@@ -112,22 +112,30 @@
   display: none;
 }
 .lens-place {
+  position: relative;
   width: 180px;
   height: 288px;
   border-radius: 1000px;
   background-color: var(--c-accent);
 }
-/* .lens-image {
-
-} */
+.lens-image {
+  position: absolute;
+  top: 76px;
+  left: -25px;
+}
 .camera-place {
+  position: relative;
   width: 340px;
   height: 100%;
   border-radius: 1000px;
   background: var(--cb-hero);
-  /* padding: 156px 50px 88px; */
 }
-
+.camera-image {
+  position: absolute;
+  top: 156px;
+  left: 50px;
+  /* transform: translateY(-55%); */
+}
 @media screen and (min-width: 768px) {
   .signup-section .container {
     max-width: 768px;
@@ -181,35 +189,8 @@
     align-items: flex-end;
     gap: 20px;
   }
-  .lens-place {
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position-x: 180%;
-    background-position-y: 75%;
-    background-image: url("../img/signup/lens_desk.webp");
-  }
-  .camera-place {
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position-x: 55%;
-    background-position-y: 63%;
-    background-image: url("../img/signup/camera_desk.webp");
-  }
 }
-@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-  .lens-place {
-    background-size: 120%;
-    background-position-x: 140%;
-    background-position-y: 80%;
-    background-image: url("../img/signup/lens_desk@2x.webp");
-  }
-  .camera-place {
-    background-size: 70%;
-    background-position-x: 55%;
-    background-position-y: 63%;
-    background-image: url("../img/signup/camera_desk@2x.webp");
-  }
-}
+
 @media screen and (min-width: 1440px) {
   .signup-section .container {
     max-width: 1440px;
@@ -220,30 +201,8 @@
   }
   .lens-place {
     width: 190px;
-    background-size: auto;
-    background-position-x: 180%;
-    background-position-y: 85%;
-    background-image: url("../img/signup/lens_desk2.webp");
   }
   .camera-place {
     width: 350px;
-    background-size: auto;
-    background-position-x: 55%;
-    background-position-y: 63%;
-    background-image: url("../img/signup/camera_desk2.webp");
-  }
-}
-@media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
-  .lens-place {
-    background-size: 120%;
-    background-position-x: 140%;
-    background-position-y: 90%;
-    background-image: url("../img/signup/lens_desk2@2x.webp");
-  }
-  .camera-place {
-    background-size: 70%;
-    background-position-x: 55%;
-    background-position-y: 63%;
-    background-image: url("../img/signup/camera_desk2@2x.webp");
   }
 }
