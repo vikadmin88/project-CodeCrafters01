@@ -109,7 +109,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .signup-section .container {
     max-width: 768px;
   }
   .signup-form-box {
@@ -150,7 +150,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  .signup-section .container {
     max-width: 1280px;
     display: flex;
     gap: 60px;
@@ -191,7 +191,7 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .container {
+  .signup-section .container {
     max-width: 1440px;
     gap: 200px;
   }
