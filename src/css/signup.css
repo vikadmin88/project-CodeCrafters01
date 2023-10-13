@@ -1,11 +1,9 @@
 .signup-section {
   padding: 40px 0;
 }
-.container {
-}
+
 .signup-form-box {
-  /* width: 100%; */
-  /* max-width: 295px; */
+  max-width: 374px;
 }
 .signup-title {
   color: var(--c-main);
@@ -36,7 +34,6 @@
 }
 .input-text {
   width: 100%;
-  /* max-width: 335px; */
   height: 46px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.20);
@@ -44,15 +41,9 @@
   outline: transparent;
   padding: 14px 18px;
 }
-.input-text::placeholder {
-  color: var(--c-main);
-  font-size: 14px;
-  line-height: 1.28;
-  opacity: 0.7;
-}
+
 .input-textarea {
   width: 100%;
-  /* max-width: 335px; */
   height: 112px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.20);
@@ -61,6 +52,7 @@
   resize: none;
   padding: 14px 18px;
 }
+.input-text::placeholder,
 .input-textarea::placeholder {
   color: var(--c-main);
   font-size: 14px;
@@ -68,8 +60,7 @@
   opacity: 0.7;
 }
 .form-btn {
-  /* width: 100%; */
-  /* max-width: 335px; */
+  width: 100%;
   border-radius: 12px;
   border: none;
   outline: none;
@@ -78,16 +69,12 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 1.25;
-  /* ? */
-  /* letter-spacing: 0.04em; */
   text-transform: uppercase;
   background: var(--c-main);
   margin-top: 40px;
-  padding: 14px 127px;
+  padding: 14px 0;
 }
 .signup-policy {
-  /* width: 100%; */
-  /* max-width: 335px; */
   color: var(--c-main-tr);
   font-size: 12px;
   line-height: 1.33;
@@ -99,11 +86,34 @@
   line-height: 1.33;
   text-decoration-line: underline;
 }
+.signup-images-box {
+  width: 540px;
+  height: 540px;
+  display: none;
+}
+.lens-place {
+  width: 180px;
+  height: 288px;
+  border-radius: 1000px;
+  background-color: var(--c-accent);
+}
+/* .lens-image {
+
+} */
+.camera-place {
+  width: 340px;
+  height: 100%;
+  border-radius: 1000px;
+  background: var(--cb-hero);
+  /* padding: 156px 50px 88px; */
+}
 
 @media screen and (min-width: 768px) {
   .container {
-    /* width: 100%; */
-    max-width: 544px;
+    max-width: 768px;
+  }
+  .signup-form-box {
+    max-width: 480px;
   }
   .signup-title {
     font-size: 48px;
@@ -111,15 +121,109 @@
     letter-spacing: -0.04em;
   }
   .signup-note {
-    max-width: 480px;
+    max-width: 100%;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
   }
+  .input-text {
+    height: 60px;
+  }
+  .input-textarea {
+    height: 120px;
+  }
+  .input-text::placeholder,
+  .input-textarea::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .form-btn {
+    font-size: 18px;
+    line-height: 1.55;
+    padding: 16px 0;
+  }
   .signup-policy {
-    max-width: 480px;
     font-size: 14px;
     line-height: 1.28;
-    /* letter-spacing: 0.04em; */
+  }
+
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    display: flex;
+    gap: 60px;
+  }
+  .signup-images-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+  }
+  .lens-place {
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: 180%;
+    background-position-y: 75%;
+    background-image: url("../img/signup/lens_desk.webp");
+  }
+  .camera-place {
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: 55%;
+    background-position-y: 63%;
+    background-image: url("../img/signup/camera_desk.webp");
+  }
+}
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .lens-place {
+    background-size: 120%;
+    background-position-x: 140%;
+    background-position-y: 80%;
+    background-image: url("../img/signup/lens_desk@2x.webp");
+  }
+  .camera-place {
+    background-size: 70%;
+    background-position-x: 55%;
+    background-position-y: 63%;
+    background-image: url("../img/signup/camera_desk@2x.webp");
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    gap: 200px;
+  }
+  .signup-images-box {
+    width: 560px;
+  }
+  .lens-place {
+    width: 190px;
+    background-size: auto;
+    background-position-x: 180%;
+    background-position-y: 85%;
+    background-image: url("../img/signup/lens_desk2.webp");
+  }
+  .camera-place {
+    width: 350px;
+    background-size: auto;
+    background-position-x: 55%;
+    background-position-y: 63%;
+    background-image: url("../img/signup/camera_desk2.webp");
+  }
+}
+@media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+  .lens-place {
+    background-size: 120%;
+    background-position-x: 140%;
+    background-position-y: 90%;
+    background-image: url("../img/signup/lens_desk2@2x.webp");
+  }
+  .camera-place {
+    background-size: 70%;
+    background-position-x: 55%;
+    background-position-y: 63%;
+    background-image: url("../img/signup/camera_desk2@2x.webp");
   }
 }
