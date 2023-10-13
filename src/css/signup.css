@@ -13,7 +13,7 @@
   letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
-.signup-title-accent {
+.signup-title.color-accent {
   color: var(--c-accent);
 }
 .signup-note {
@@ -35,22 +35,30 @@
 .input-text {
   width: 100%;
   height: 46px;
+  color: var(--c-main);
+  font-size: 16px;
+  line-height: 1.25;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.20);
   background-color: transparent;
   outline: transparent;
   padding: 14px 18px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-textarea {
   width: 100%;
   height: 112px;
+  color: var(--c-main);
+  font-size: 16px;
+  line-height: 1.25;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.20);
   background-color: transparent;
   outline: transparent;
   resize: none;
   padding: 14px 18px;
+  transition: border-color 450ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-text::placeholder,
 .input-textarea::placeholder {
@@ -58,6 +66,11 @@
   font-size: 14px;
   line-height: 1.28;
   opacity: 0.7;
+}
+
+.input-text:focus,
+.input-textarea:focus {
+  border-color: rgba(255, 255, 255, 0.50);
 }
 .form-btn {
   width: 100%;
@@ -73,6 +86,13 @@
   background: var(--c-main);
   margin-top: 40px;
   padding: 14px 0;
+  transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
+}
+.form-btn:hover,
+.form-btn:focus,
+.form-btn:active {
+  color: var(--c-accent);
+  background-color: var(--cb-hero);
 }
 .signup-policy {
   color: var(--c-main-tr);
@@ -92,22 +112,30 @@
   display: none;
 }
 .lens-place {
+  position: relative;
   width: 180px;
   height: 288px;
   border-radius: 1000px;
   background-color: var(--c-accent);
 }
-/* .lens-image {
-
-} */
+.lens-image {
+  position: absolute;
+  top: 76px;
+  left: -25px;
+}
 .camera-place {
+  position: relative;
   width: 340px;
   height: 100%;
   border-radius: 1000px;
   background: var(--cb-hero);
-  /* padding: 156px 50px 88px; */
 }
-
+.camera-image {
+  position: absolute;
+  top: 156px;
+  left: 50px;
+  /* transform: translateY(-55%); */
+}
 @media screen and (min-width: 768px) {
   .signup-section .container {
     max-width: 768px;
@@ -161,35 +189,8 @@
     align-items: flex-end;
     gap: 20px;
   }
-  .lens-place {
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position-x: 180%;
-    background-position-y: 75%;
-    background-image: url("../img/signup/lens_desk.webp");
-  }
-  .camera-place {
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position-x: 55%;
-    background-position-y: 63%;
-    background-image: url("../img/signup/camera_desk.webp");
-  }
 }
-@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-  .lens-place {
-    background-size: 120%;
-    background-position-x: 140%;
-    background-position-y: 80%;
-    background-image: url("../img/signup/lens_desk@2x.webp");
-  }
-  .camera-place {
-    background-size: 70%;
-    background-position-x: 55%;
-    background-position-y: 63%;
-    background-image: url("../img/signup/camera_desk@2x.webp");
-  }
-}
+
 @media screen and (min-width: 1440px) {
   .signup-section .container {
     max-width: 1440px;
@@ -200,30 +201,8 @@
   }
   .lens-place {
     width: 190px;
-    background-size: auto;
-    background-position-x: 180%;
-    background-position-y: 85%;
-    background-image: url("../img/signup/lens_desk2.webp");
   }
   .camera-place {
     width: 350px;
-    background-size: auto;
-    background-position-x: 55%;
-    background-position-y: 63%;
-    background-image: url("../img/signup/camera_desk2.webp");
-  }
-}
-@media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
-  .lens-place {
-    background-size: 120%;
-    background-position-x: 140%;
-    background-position-y: 90%;
-    background-image: url("../img/signup/lens_desk2@2x.webp");
-  }
-  .camera-place {
-    background-size: 70%;
-    background-position-x: 55%;
-    background-position-y: 63%;
-    background-image: url("../img/signup/camera_desk2@2x.webp");
   }
 }
