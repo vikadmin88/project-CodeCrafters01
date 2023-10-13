@@ -93,7 +93,7 @@
 }
 
 .course-box-link {
-    background-color: #1D1D1D;
+    background-color: var(--cb-hero);
     border: 1px solid inherit;
     border-radius: 50%;
     cursor: pointer;
