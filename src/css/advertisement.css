@@ -1,0 +1,94 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+  
+.marquee {
+  color: var(--c-accent);
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02;
+  text-transform: uppercase;
+  background-color: var(--cb-main);
+  text-align: center;
+}
+.marquee-span{
+  color: var(--c-main);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.02px;
+  text-transform: uppercase;
+  background-color: var(--cb-main);
+}
+  
+.marquee-inner {
+  display: flex;
+}
+  
+.marquee-line {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 20px 20px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: marqueeLine;
+  animation-duration: 7s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+  
+@keyframes marqueeLine {
+  from {
+    transform: translateX(0);
+  }
+    
+  to {
+    transform: translateX(-100%);
+  }
+}
+@media screen and (min-width: 768px) {
+  .marquee {
+    font-size: 40px;
+    line-height: 1.25;
+  }
+  .marquee-span{
+    font-size: 40px;
+    line-height: 1.25;
+  }
+  .marquee-line {
+    padding: 24px 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .marquee {
+    font-size: 59px;
+    line-height: 1.08;
+  }
+  .marquee-span{
+    font-size: 59px;
+    line-height: 1.08;
+  }
+  .marquee-line {
+    padding: 24px 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .marquee {
+    font-size: 59px;
+    line-height: 1.08;
+  }
+  .marquee-span{
+    font-size: 59px;
+    line-height: 1.08;
+  }
+  .marquee-line {
+    padding: 24px 100px;
+}
+}
