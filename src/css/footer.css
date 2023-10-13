@@ -1,11 +1,15 @@
 .footer-class {
-  padding: 40px 0 20px 20px;
+  margin: 40px 20px 20px 20px;
 }
 .footer-container {
   width: 100%;
   height: 535px;
   outline: 2px solid tomato;
   outline-offset: -2px;
+}
+
+.focus-frame-zero {
+  padding-bottom: 16px;
 }
 
 .focus-frame-one {
@@ -15,7 +19,146 @@
   fill: #fff;
 }
 
-@media screen and (min-width: 768px) {
+.contacts-container {
+  width: 142px;
+  height: 46px;
+}
+
+.contacts-type {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.contacts-type-one {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28px;
+  padding-bottom: 40px;
+}
+
+.footer-block {
+  display: flex;
+  width: 100%;
+  height: 146px;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  gap: 40px;
+  margin: 0 auto;
+  margin-bottom: 75px;
+}
+
+.footer-social-networks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.footer-social-networks-three {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.footer-social-networks {
+  float: left;
+  width: 77px;
+  --c-main: #fff;
+}
+
+.footer-social-networks-three {
+  float: right;
+  --c-main: #fff;
+}
+
+.subscribe-label {
+  display: flex;
+  width: auto;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  fill: var(--c-main);
+  padding-right: 8px;
+}
+
+.subscribe-button {
+  border-radius: 12px;
+  background: #1d1d1d;
+}
+
+.inner-go {
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 6;
+  padding: 18px 17px 18px 16px; */
+  width: 24px;
+  height: 27px;
+}
+
+.subscribe-one {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.subscribe-form {
+  /* display: flex; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts-type-five {
+  --c-main: #fff;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+}
+
+.privacy-container {
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  /* gap: 72px; */
+}
+
+.all-rights-container {
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.privacy-all-rights {
+  --c-main: #fff;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+}
+
+. @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding-left: 32px;
