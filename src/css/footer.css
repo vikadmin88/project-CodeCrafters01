@@ -210,26 +210,16 @@
     background-size: cover;
     background-image: url('../img/footer/footer_bg_tab@2x.png');
   }
-  .footer-class {
-    margin-top: 50px;
-    margin-bottom: 25px;
-  }
-  .footer-logo {
-    padding-bottom: 25px;
-  }
 
-  .footer-block {
+  .footer-tablet {
     display: flex;
-    /* align-items: center; */
+  }
+  .footer-block {
     gap: 25px;
   }
 
-  .footer-social-networks {
-    float: none;
-  }
-
-  .footer-social-networks-three {
-    float: none;
+  .footer-block {
+    margin-left: 58px;
   }
 }
 
