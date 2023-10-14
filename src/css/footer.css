@@ -7,14 +7,15 @@
   outline-offset: -2px;
 }
 
-.focus-frame-one {
-  max-width: 100%;
-  fill: #fff;
+.footer-logo-link {
+  margin-bottom: 10px;
+  display: block;
 }
 
-.focus-frame-two {
-  padding-bottom: 16px;
-  display: inline;
+.footer-logo {
+  /* padding-bottom: 16px;
+  display: inline; */
+  fill: var(--c-main);
 }
 
 .contacts-container {
@@ -213,8 +214,22 @@
     margin-top: 50px;
     margin-bottom: 25px;
   }
-  .focus-frame-two {
+  .footer-logo {
     padding-bottom: 25px;
+  }
+
+  .footer-block {
+    display: flex;
+    /* align-items: center; */
+    gap: 25px;
+  }
+
+  .footer-social-networks {
+    float: none;
+  }
+
+  .footer-social-networks-three {
+    float: none;
   }
 }
 
