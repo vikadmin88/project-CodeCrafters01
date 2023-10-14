@@ -241,9 +241,6 @@
   }
 
   .subscribe-label {
-    /* padding-left: 59px; */
-  }
-  .subscribe-label {
     display: flex;
     width: 178px;
     height: 60px;
