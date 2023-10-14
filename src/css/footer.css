@@ -4,8 +4,8 @@
 .footer-container {
   width: 100%;
   height: 535px;
-  outline: 2px solid tomato;
-  outline-offset: -2px;
+  /* outline: 2px solid tomato;
+  outline-offset: -2px; */
 }
 
 .focus-frame-one {
@@ -46,7 +46,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.28px;
-  padding-bottom: 40px;
   padding-bottom: 10px;
 }
 .contacts-type-one {
@@ -104,7 +103,6 @@
 
 .subscribe-label {
   display: flex;
-  width: 267px;
   height: 60px;
   flex-shrink: 0;
   border-radius: 12px;
@@ -113,6 +111,7 @@
 }
 
 .subscribe-button {
+  width: 100%;
   border-radius: 12px;
   background: #1d1d1d;
 }
@@ -145,11 +144,7 @@
 }
 
 .subscribe-input {
-  width: 100%;
-}
-
-.subscribe-button {
-  width: 100%;
+  width: 267px;
 }
 
 .subscribe-form {
