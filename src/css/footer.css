@@ -100,7 +100,7 @@
 
 .subscribe-label {
   display: flex;
-  width: auto;
+  width: 267px;
   height: 60px;
   flex-shrink: 0;
   border-radius: 12px;
@@ -130,6 +130,26 @@
   display: flex;
   padding-bottom: 40px;
 }
+
+.subscribe-one {
+  width: 100%;
+  max-width: 100%;
+}
+
+.subscribe-form {
+  width: 100%;
+}
+
+.subscribe-input {
+  width: 100%;
+}
+
+.subscribe-button {
+  width: 100%;
+}
+
+/* Не забудьте убедиться, что родительский контейнер, в котором находится .subscribe-one,
+   также имеет ширину 100% или достаточно места для растяжения .subscribe-one. */
 
 .subscribe-form {
   /* display: flex; */
