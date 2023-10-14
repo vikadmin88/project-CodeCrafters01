@@ -1,72 +1,55 @@
-.container-about {
+.section-aboutus {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-aboutus {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-aboutus {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
+.container {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
-  width: 335px;
-  height: 630px;
-  margin-top: 1099px;
-  margin-bottom: 4324px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 @media screen and (min-width: 768px) {
-  .container-about {
+  .container {
     gap: 50px;
-    height: 734px;
-    width: 704px;
-    margin-top: 1318px;
-    margin-bottom: 3459px;
-    margin-left: 35px;
-    margin-right: 35px;
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .container-about {
-    gap: 50px;
-    height: 364px;
-    width: 1080px;
-    margin-top: 1172px;
-    margin-bottom: 2915px;
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .container-about {
-    margin-bottom: 2875px;
-    height: 344px;
-    width: 1240px;
-  }
-}
-.title {
+.aboutus-title {
   color: #fff;
-  font-family: DM Sans;
-  font-size: 28px;
-  font-style: normal;
+  font-size: 1.75em;
   font-weight: 500;
-  line-height: 32px;
-  letter-spacing: -1.12px;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
 }
 @media screen and (min-width: 768px) {
-  .title {
-    font-size: 48px;
-    line-height: 54px;
-    letter-spacing: -1.92px;
+  .aboutus-title {
+    font-size: 3em;
+    line-height: 3.375;
+    letter-spacing: -0.04em;
   }
 }
 
-.title-span {
+.aboutus-title-span {
   color: #bea69e;
-  font-family: DM Sans;
-  font-style: normal;
   font-weight: 500;
-  line-height: 32px;
-  letter-spacing: -1.12px;
+  line-height: 1.14;
+  letter-spacing: -0.02333em;
 }
-.block {
+.aboutus-block {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,12 +57,12 @@
   gap: 40px;
 }
 @media screen and (min-width: 768px) {
-  .block {
+  .aboutus-block {
     gap: 50px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .block {
+  .aboutus-block {
     display: flex;
     align-items: flex-start;
     gap: 40px;
@@ -87,7 +70,7 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .block {
+  .aboutus-block {
     gap: 50px;
   }
 }
@@ -114,7 +97,7 @@
   }
 }
 
-.text-ul {
+.aboutus-text-ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -122,7 +105,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .text-ul {
+  .aboutus-text-ul {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -130,31 +113,28 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .text-ul {
+  .aboutus-text-ul {
     gap: 20px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .text-ul {
+  .aboutus-text-ul {
     gap: 40px;
   }
 }
 .text-two {
   color: #fff;
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: -0.28px;
+  font-size: 0.875em;
+  line-height: 1.125;
+  letter-spacing: -0.02em;
   width: 335px;
   height: 127px;
 }
 @media screen and (min-width: 768px) {
   .text-two {
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: -0.32px;
+    font-size: 1em;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
     width: 280px;
     height: 215px;
   }
@@ -172,19 +152,16 @@
 
 .text-one {
   color: var(--white, #fff);
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: -0.28px;
+  font-size: 0.875em;
+  line-height: 1.125;
+  letter-spacing: -0.02em;
   width: 335px;
 }
 @media screen and (min-width: 768px) {
   .text-one {
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: -0.32px;
+    font-size: 1em;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
     width: 280px;
     height: 240px;
   }
