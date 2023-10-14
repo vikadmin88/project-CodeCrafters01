@@ -30,7 +30,7 @@
 
 .contacts-type {
   /* display: flex; */
-  color: #fff;
+  --c-main: #fff;
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
@@ -50,7 +50,7 @@
   padding-bottom: 10px;
 }
 .contacts-type-one {
-  color: #fff;
+  --c-main: #fff;
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
@@ -71,6 +71,10 @@
   gap: 40px;
   margin: 0 auto;
   margin-bottom: 75px;
+}
+
+.footer-block a {
+  color: #fff;
 }
 
 .footer-social-networks {
@@ -148,11 +152,7 @@
   width: 100%;
 }
 
-/* Не забудьте убедиться, что родительский контейнер, в котором находится .subscribe-one,
-   также имеет ширину 100% или достаточно места для растяжения .subscribe-one. */
-
 .subscribe-form {
-  /* display: flex; */
   display: flex;
   align-items: center;
   justify-content: space-between;
