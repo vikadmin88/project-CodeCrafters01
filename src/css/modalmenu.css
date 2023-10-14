@@ -1,0 +1,103 @@
+/* Modal menu */
+
+.backdrop {
+    background: rgba(18, 18, 18, 0.40);
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+}
+
+.menu-container {
+    background-color: var(--brown, #BEA69E);
+    width: 480px;
+    height: 1024px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.is-open {
+    transform: translateX(0);
+    transition: 250ms ease-in;
+}
+
+.menu-close {
+    position: absolute;
+    top: 20px;
+    right: 32px;
+    min-width: 40px;
+    min-height: 40px;
+    background: #BEA69E;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-list {
+    margin-top: 232px;
+    margin-left: 64px;
+    margin-bottom: 114px;
+}
+
+.menu-link {
+    color: var(--black, #121212);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.menu-link.current {
+    font-weight: 700;
+}
+
+.menu-link:hover {
+    font-weight: 700;
+}
+
+.menu-link:focus {
+    font-weight: 700;
+}
+
+.menu-item:not(:last-child) {
+    margin-bottom: 28px;
+}
+
+.menu-close {
+    background-color: transparent;
+    border: none;
+}
+
+.mob-menu-x {
+    stroke: rgba(18, 18, 18, 1);
+}
+
+@media screen and (max-width: 766px) {
+    .menu-container {
+        width: 218px;
+        height: 812px;
+    }
+
+    .menu-close {
+        top: 20px;
+        right: 20px;
+        min-width: 32px;
+        min-height: 32px;
+    }
+
+    .menu-list {
+        margin-top: 180px;
+        margin-left: 20px;
+        margin-bottom: 133px;
+    }
+
+    .menu-item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
