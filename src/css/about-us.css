@@ -10,6 +10,7 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+
 @media screen and (min-width: 768px) {
   .container-about {
     gap: 50px;
@@ -21,6 +22,7 @@
     margin-right: 35px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .container-about {
     gap: 50px;
