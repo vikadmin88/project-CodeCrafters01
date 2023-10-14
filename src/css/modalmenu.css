@@ -9,7 +9,7 @@
     justify-content: center;
     transform: translateX(100%);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    pointer-events: none;
+    pointer-events: painted;
 }
 
 .menu-container {
@@ -30,13 +30,15 @@
     position: absolute;
     top: 20px;
     right: 32px;
-    min-width: 40px;
-    min-height: 40px;
+    width: 40px;
+    height: 40px;
     background: #BEA69E;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    pointer-events: painted;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-list {
@@ -59,10 +61,12 @@
 
 .menu-link:hover {
     font-weight: 700;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:focus {
     font-weight: 700;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-item:not(:last-child) {
@@ -87,8 +91,8 @@
     .menu-close {
         top: 20px;
         right: 20px;
-        min-width: 32px;
-        min-height: 32px;
+        width: 32px;
+        height: 32px;
     }
 
     .menu-list {
