@@ -82,7 +82,7 @@
     stroke: rgba(18, 18, 18, 1);
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
     .menu-container {
         width: 218px;
         height: 812px;
@@ -103,5 +103,10 @@
 
     .menu-item:not(:last-child) {
         margin-bottom: 20px;
+    }
+
+    .photoaparat {
+        width: 218px;
+        height: 329px;
     }
 }
