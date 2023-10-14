@@ -4,6 +4,13 @@
   align-items: center;
 
   padding: 20px 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 10;
 }
 
 .header .container {
