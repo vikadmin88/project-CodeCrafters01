@@ -1,53 +1,47 @@
 .footer-class {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 40px 0 20px;
   margin-top: 40px;
-  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../img/footer/footer_bg_mob.png');
 }
-.container {
-  /* outline: 2px solid tomato;
-  outline-offset: -2px; */
+
+.footer-container {
+  margin-bottom: 40px;
+}
+
+.footer-address-container {
+  margin-bottom: 40px;
 }
 
 .footer-logo-link {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   display: block;
 }
 
 .footer-logo {
-  /* padding-bottom: 16px;
-  display: inline; */
   fill: var(--c-main);
 }
 
-.contacts-container {
-  width: 100%;
-  height: 46px;
-  margin-bottom: 40px;
-}
-
-.contacts-type-zero {
+.contacts-item {
   margin-bottom: 10px;
 }
 
 .contacts-type {
-  --c-main: #fff;
-  font-family: DM Sans;
+  color: var(--c-main);
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.28px;
   text-transform: uppercase;
 }
-.contacts-type-two {
-  color: #fff;
-  font-family: DM Sans;
+.contacts-tel {
+  color: var(--c-main);
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.28px;
-  padding-bottom: 10px;
 }
 .contacts-type-one {
-  --c-main: #fff;
+  color: var(--c-main);
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
@@ -71,79 +65,55 @@
 }
 
 .footer-block a {
-  color: #fff;
+  color: var(--c-main);
 }
 
-.footer-social-networks {
+.footer-socials-list {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 14px;
 }
 
-.footer-social-networks-three {
+.footer-socials-list {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 14px;
 }
 
-.footer-social-networks {
+.footer-socials-list {
   float: left;
   width: 77px;
-  --c-main: #fff;
+  color: var(--c-main);
 }
 
-.footer-social-networks-three {
+.footer-socials-list {
   float: right;
-  --c-main: #fff;
-}
-
-.subscribe-label {
-  display: flex;
-  height: 60px;
-  flex-shrink: 0;
-
-  fill: var(--c-main);
-  padding-right: 8px;
+  color: var(--c-main);
 }
 
 .subscribe-button {
-  /* width: 100%; */
-  width: auto;
-  border-radius: 12px;
-  background: #1d1d1d;
-}
-
-.inner-go {
-  color: #fff;
+  color: var(--c-main);
   text-align: center;
-  font-family: DM Sans;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  width: 24px;
-  height: 27px;
-}
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--cb-hero);
 
-.subscribe-one {
   display: flex;
-  padding-bottom: 40px;
-}
-
-.subscribe-one {
-  /* width: 100%; */
-  width: auto;
-  max-width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .subscribe-form {
-  /* width: 100%; */
-  width: auto;
   gap: 8px;
 }
 
 .subscribe-input {
+  height: 60px;
   width: 267px;
   border-radius: 12px;
 }
@@ -155,7 +125,7 @@
 }
 
 .contacts-type-five {
-  --c-main: #fff;
+  color: var(--c-main);
   font-family: DM Sans;
   font-size: 12px;
   font-style: normal;
@@ -180,22 +150,16 @@
 .privacy-all-rights {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 /* @media screen and (min-width: 320px) */
-.footer-class {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url('../img/footer/footer_bg_mob.png');
+
+@media (min-resolution: 192dpi) and (max-width: 767px) {
+  .footer-class {
+    background-image: url('../img/footer/footer_bg_mob@2x.png');
+  }
 }
 
-.footer-class {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url('../img/footer/footer_bg_mob@2x.png');
-}
-/*@media screen and (min-width: 768px)*/
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -203,17 +167,7 @@
     padding-right: 32px;
   }
   .footer-class {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     background-image: url('../img/footer/footer_bg_tab.png');
-  }
-
-  .footer-class {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url('../img/footer/footer_bg_tab@2x.png');
   }
 
   .footer-class {
@@ -223,7 +177,7 @@
     margin-bottom: 0;
   }
 
-  .footer-tablet {
+  .footer-container {
     display: flex;
   }
 
@@ -236,27 +190,12 @@
     margin: 0;
   }
 
-  .contacts-type-zero {
+  .contacts-item {
     display: flex;
   }
 
   .footer-logo {
     padding-bottom: 25px;
-  }
-
-  .subscribe-one {
-    align-items: flex-start;
-    padding-bottom: 160px;
-  }
-
-  .subscribe-label {
-    display: flex;
-    width: 178px;
-    height: 60px;
-    flex-shrink: 0;
-  }
-  .subscribe-label {
-    padding-right: 0 !important;
   }
 }
 /* @media screen and (min-width: 1280px) */
@@ -268,23 +207,14 @@
   }
 
   .footer-class {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     background-image: url('../img/footer/footer_bg_desk.png');
   }
 
-  .footer-class {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url('../img/footer/footer_bg_desk@2x.png');
-  }
-
   .subscribe-form {
-    /* width: 100%; */
-    width: auto;
     gap: 16px;
+  }
+  .footer-class {
+    margin-top: 75px;
   }
 }
 /* @media screen and (min-width: 1440px) */
@@ -294,16 +224,27 @@
   }
 
   .footer-class {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     background-image: url('../img/footer/footer_bg_desk2.png');
   }
+}
 
+@media (min-resolution: 192dpi) and (max-width: 767px) {
   .footer-class {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-image: url('../img/footer/footer_bg_mob@2x.png');
+  }
+}
+@media (min-resolution: 192dpi) and (min-width: 768px) {
+  .footer-class {
+    background-image: url('../img/footer/footer_bg_tab@2x.png');
+  }
+}
+@media (min-resolution: 192dpi) and (min-width: 1280px) {
+  .footer-class {
+    background-image: url('../img/footer/footer_bg_desk@2x.png');
+  }
+}
+@media (min-resolution: 192dpi) and (min-width: 1440px) {
+  .footer-class {
     background-image: url('../img/footer/footer_bg_desk2@2x.png');
   }
 }
