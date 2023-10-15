@@ -24,3 +24,29 @@ dist-ssr
 *.sw?
 
 pullrequest-list.txt
+
+# advertisement.*
+
+# src/css/reset.css
+# src/css/init.css
+# src/css/header.css
+# src/css/hero.css
+# src/css/advertisement.css
+# src/css/about-us.css
+# src/css/our-courses.css
+# src/css/our-mentors.css
+# src/css/signup.css
+# src/css/reviews.css
+# src/css/footer.css
+# src/css/modalmenu.css
+# index.html
+# src/partials/header.html
+# src/partials/hero.html
+# advertisement.html
+# src/partials/about-us.html
+# src/partials/our-courses.html
+# src/partials/our-mentors.html
+# src/partials/signup.html
+# src/partials/reviews.html
+# src/partials/footer.html
+# src/partials/modalmenu.html
