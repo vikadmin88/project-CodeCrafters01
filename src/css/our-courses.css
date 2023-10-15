@@ -258,4 +258,7 @@
         max-height: 452px;
     }
     
+    .course-text {
+        max-width: 565px;
+        }
 }
