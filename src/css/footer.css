@@ -118,7 +118,7 @@
   line-height: 1.33;
 }
 
-.all-rights-container {
+.focus-frame {
   color: var(--c-main);
   font-size: 12px;
   line-height: 1.33;
@@ -186,7 +186,12 @@
     width: 178px;
   }
 
-  .privacy-all-rights {
+  .privacy-policy {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+
+  .focus-frame {
     font-size: 14px;
     line-height: 1.28;
   }
@@ -234,6 +239,9 @@
 
   .footer-class {
     background-image: url('../img/footer/footer_bg_desk2.png');
+  }
+  .footer-block {
+    gap: 100px;
   }
 }
 
