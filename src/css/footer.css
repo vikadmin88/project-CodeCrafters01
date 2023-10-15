@@ -228,11 +228,10 @@
   }
 
   .footer-block {
-    gap: 25px;
-  }
-
-  .footer-block {
     padding-left: 58px;
+    padding-right: 61px;
+    gap: 25px;
+    width: auto;
   }
 
   .contacts-type-zero {
