@@ -51,17 +51,18 @@
 
 .footer-block {
   display: flex;
-  width: 100%;
-  height: 146px;
+  gap: 40px;
+  margin-bottom: 74px;
+}
+
+.footer-socials-link {
+  color: var(--c-main);
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  gap: 40px;
-  margin: 0 auto;
-  margin-bottom: 74px;
 }
 
 .footer-block a {
@@ -75,24 +76,6 @@
   gap: 14px;
 }
 
-.footer-socials-list {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 14px;
-}
-
-.footer-socials-list {
-  float: left;
-  width: 77px;
-  color: var(--c-main);
-}
-
-.footer-socials-list {
-  float: right;
-  color: var(--c-main);
-}
-
 .subscribe-button {
   color: var(--c-main);
   text-align: center;
@@ -102,7 +85,6 @@
   border: none;
   border-radius: 12px;
   background-color: var(--cb-hero);
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,6 +98,7 @@
   height: 60px;
   width: 267px;
   border-radius: 12px;
+  padding: 18px 20px;
 }
 
 .subscribe-form {
