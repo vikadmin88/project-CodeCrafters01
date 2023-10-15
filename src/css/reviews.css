@@ -27,15 +27,6 @@
 .reviews-list-item:last-child {
     display: none;
 }
-.reviews-card{
-  /* max-width: 335px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  border: 1px solid var(--c-main-tr);
-  border-radius: 12px;
-  padding: 20px; */
-}
 .reviews-person {
   display: flex;
   justify-content: flex-start;
@@ -73,7 +64,6 @@
   fill: #414141;
 }
 .reviews-text-p {
-  /* max-width: 295px; */
   color: var(--c-main);
   font-size: 14px;
   line-height: 1.28;
@@ -117,7 +107,6 @@
     height: 20px;
   }
   .reviews-text-p {
-    max-width: 640px;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
@@ -138,7 +127,7 @@
     max-width: 490px;
   }
   .reviews-list-item:last-child {
-    display: block;
+    display: flex;
   }
 
 }
@@ -149,9 +138,6 @@
   .reviews-list-item{
     max-width: 610px;
     min-height: 196px;
-  }
-  .reviews-text-p {
-    max-width: 570px;
   }
 
 }
