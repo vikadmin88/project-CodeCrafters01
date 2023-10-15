@@ -55,8 +55,8 @@
 
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
-    max-width: 295px;
-    max-height: 398px;
+    width: 295px;
+    height: 398px;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.2));
     /* padding: 0 20px; */
 }
@@ -71,7 +71,7 @@
     /* padding: 0; */
     /* position: relative; */
     margin-top: 28px;
-    margin-bottom: 28px;
+    /* margin-bottom: 28px; */
 }
 
 
@@ -139,11 +139,11 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 1.28;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.08em;
     text-align: left;
     color: rgba(255, 255, 255, 0.5);
     margin: 0 28px 28px 28px;
-
+    max-width: 279px;
 }
 
 
@@ -158,6 +158,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-bottom: 50px;
 
     }
 
@@ -188,8 +189,8 @@
 
     .course-list-item {
         width: calc((100% - 20px) / 2);
-        max-width: 342px;
-        max-height: 452px;
+        width: 342px;
+        height: 452px;
     }
 
     .course-box-number {
@@ -201,11 +202,15 @@
 
     .course-box-title{
         max-width: 265px;
+        margin-bottom: 180px;
     }
 
     .course-box-text{
-            margin: 0 32px 32px 32px;
-    }
+        margin: 0 32px 32px 32px;
+        font-size: 16px;
+        max-width: 278px;
+        letter-spacing: -0.02em;
+    } 
 }
 
 
@@ -243,10 +248,17 @@
 
     .course-list-item {
         width: calc((100% - 40px) / 3);
-        max-width: 347px;
-        max-height: 452px;
+        /* width: 347px;
+        height: 452px; */
     }
+
+    .course-box-text{
+        max-width: 283px;
+        letter-spacing: -0.03em;
+    }   
 }
+
+
 
 @media screen and (min-width: 1440px) {
     .course-section {
@@ -254,11 +266,19 @@
     }
 
     .course-list-item{
-        max-width: 400px;
-        max-height: 452px;
+        width: 400px;
+        height: 452px;
     }
     
     .course-text {
         max-width: 565px;
+    }
+
+    .course-box-title {
+        margin-bottom: 200px;
         }
+    
+     .course-box-text {
+        max-width: 336px;
+    } 
 }
