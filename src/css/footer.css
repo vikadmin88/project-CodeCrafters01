@@ -109,7 +109,8 @@
 }
 
 .subscribe-button {
-  width: 100%;
+  /* width: 100%; */
+  width: auto;
   border-radius: 12px;
   background: #1d1d1d;
 }
@@ -131,12 +132,15 @@
 }
 
 .subscribe-one {
-  width: 100%;
+  /* width: 100%; */
+  width: auto;
   max-width: 100%;
 }
 
 .subscribe-form {
-  width: 100%;
+  /* width: 100%; */
+  width: auto;
+  gap: 8px;
 }
 
 .subscribe-input {
@@ -273,6 +277,12 @@
     background-position: center;
     background-size: cover;
     background-image: url('../img/footer/footer_bg_desk@2x.png');
+  }
+
+  .subscribe-form {
+    /* width: 100%; */
+    width: auto;
+    gap: 16px;
   }
 }
 /* @media screen and (min-width: 1440px) */
