@@ -74,6 +74,7 @@
     height: 32px;
     padding: 6px;
     border-radius: 50%;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .course-box-icon {
@@ -86,7 +87,6 @@
 
 .course-box-link:hover,
 .course-box-link:focus {
-    border: none;
     background-color: var(--c-accent);
 }
 
@@ -102,7 +102,6 @@
     color: var(--c-main);
     margin: 28px 0 164px; 
 }
-
 
 .course-box-text {
     font-size: 14px;
@@ -165,15 +164,20 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .course-section {
+            padding: 75px 0;
+        }
+
      .course-text {
         max-width: 405px;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: -0.02em;
     } 
 
     .course-list-item {
         width: calc((100% - 40px) / 3);
+    }
+
+    .course-box-title {
+        margin-bottom: 200px;
     }
 }
 
@@ -181,8 +185,4 @@
     .course-text {
         max-width: 565px;
     } 
-
-    .course-box-title {
-        margin-bottom: 200px;
-        }
 }
