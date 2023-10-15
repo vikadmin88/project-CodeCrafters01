@@ -120,8 +120,7 @@
     max-width: 1280px;
   }
   .reviews-list-item{
-    max-width: 530px;
-    min-height: 216px;
+    width: calc((100% - 20px) / 2);
   }
   .reviews-text-p {
     max-width: 490px;
@@ -136,8 +135,7 @@
     max-width: 1440px;
   }
   .reviews-list-item{
-    max-width: 610px;
-    min-height: 196px;
+    width: calc((100% - 20px) / 2);
   }
 
 }
