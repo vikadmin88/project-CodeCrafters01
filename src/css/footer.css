@@ -229,9 +229,11 @@
 
   .footer-block {
     padding-left: 58px;
-    padding-right: 61px;
+    padding-right: 59px;
     gap: 25px;
     width: auto;
+    padding-bottom: 74px;
+    margin: 0;
   }
 
   .contacts-type-zero {
@@ -244,6 +246,7 @@
 
   .subscribe-one {
     align-items: flex-start;
+    padding-bottom: 160px;
   }
 
   .subscribe-label {
