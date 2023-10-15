@@ -1,8 +1,6 @@
 .course-section {
-    max-width: 320px;
     padding-top: 40px; 
     padding-bottom: 40px;
-    margin: 0 auto;
 }
 
 .course-title-wrap {
@@ -250,5 +248,6 @@
     
      .course-box-text {
         max-width: 336px;
+        letter-spacing: -0.02em;
     } 
 }
