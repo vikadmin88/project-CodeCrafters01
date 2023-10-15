@@ -1,20 +1,20 @@
 .course-section {
     max-width: 320px;
-    padding: 40px 0;
+    /* padding: 40px 0; */
     margin: 0 auto;
 }
 
-.course-section .container {
+/* .course-section .container {
     padding: 0 20px;
     min-width: 100%;
     min-height: 100%;
-}
+} */
 
 .course-title-wrap {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     min-width: 100%;
 }
 
@@ -63,20 +63,21 @@
 
 .course-card {
     width: 100%;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0;
-    position: relative;
+    /* position: relative; */
 }
 
 
 .course-box {
     display: flex;
     flex-direction: row;
-    gap: 205px;
-    padding-top: 28px;
+    justify-content: space-between;
+    /* gap: 205px; */
+    margin-top: 28px;
 }
 
 
@@ -124,7 +125,9 @@
     letter-spacing: 0em;
     text-align: left;
     color: var(--c-main-);
-    padding: 28px 28px 164px 28px;
+    /* padding: 28px 28px 164px 28px; */
+    width: 265px;
+    margin-bottom: 164px;
 }
 
 
@@ -136,6 +139,7 @@
     text-align: left;
     color: rgba(255, 255, 255, 0.5);
     padding: 0 28px 28px 28px;
+    width: 279px;
 
 }
 
@@ -144,9 +148,6 @@
 @media screen and (min-width: 768px) {
     .course-section {
         max-width: 768px;
-    }
-
-    .course-section .container {
         padding: 0 32px;
     }
 
@@ -171,7 +172,7 @@
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: -0.02em;
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
     }
 
     .course-list {
@@ -215,7 +216,7 @@
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: -0.02em;
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
     }
 
     .course-list {
@@ -229,5 +230,11 @@
         width: calc((100% - 40px) / 3);
         max-width: 347px;
         max-height: 452px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .course-section {
+        max-width: 1440px;
     }
 }
