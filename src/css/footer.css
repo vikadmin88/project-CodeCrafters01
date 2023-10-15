@@ -67,7 +67,7 @@
   text-transform: uppercase;
   gap: 40px;
   margin: 0 auto;
-  margin-bottom: 75px;
+  margin-bottom: 74px;
 }
 
 .footer-block a {
@@ -214,7 +214,9 @@
 
   .footer-class {
     margin-top: 50px;
-    margin-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-bottom: 0;
   }
 
   .footer-tablet {
@@ -226,7 +228,7 @@
   }
 
   .footer-block {
-    margin-left: 58px;
+    padding-left: 58px;
   }
 
   .contacts-type-zero {
