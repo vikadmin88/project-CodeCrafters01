@@ -15,7 +15,11 @@
 .footer-address-container {
   margin-bottom: 40px;
 }
-
+.footer-block {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 75px;
+}
 .footer-logo-link {
   margin-bottom: 16px;
   display: block;
@@ -25,20 +29,20 @@
   fill: var(--c-main);
 }
 
-.contacts-item {
+.contacts-item:not(:last-child) {
   margin-bottom: 10px;
 }
 
 .contacts-type {
   color: var(--c-main);
   font-size: 14px;
-  line-height: 1.28px;
+  line-height: 1.28;
   text-transform: uppercase;
 }
 .contacts-tel {
   color: var(--c-main);
   font-size: 14px;
-  line-height: 1.28px;
+  line-height: 1.28;
 }
 .contacts-type-one {
   color: var(--c-main);
@@ -46,13 +50,7 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.28px;
-}
-
-.footer-block {
-  display: flex;
-  gap: 40px;
-  margin-bottom: 74px;
+  line-height: 1.28;
 }
 
 .footer-socials-link {
@@ -98,7 +96,7 @@
   height: 60px;
   width: 267px;
   border-radius: 12px;
-  padding: 18px 20px;
+  padding: 20px 18px;
 }
 
 .subscribe-form {
@@ -117,14 +115,16 @@
 }
 
 .privacy-container {
-  width: 147px;
   color: var(--c-main);
   font-size: 12px;
   line-height: 1.33;
 }
 
+.privacy-policy {
+  display: block;
+}
+
 .all-rights-container {
-  width: 116px;
   color: var(--c-main);
   font-size: 12px;
   line-height: 1.33;
@@ -162,14 +162,17 @@
 
   .footer-container {
     display: flex;
+    align-items: flex-start;
+    margin-bottom: 74px;
+    justify-content: space-between;
+  }
+
+  .footer-address-container {
+    margin-bottom: 0;
   }
 
   .footer-block {
-    padding-left: 58px;
-    padding-right: 59px;
     gap: 25px;
-    width: auto;
-    padding-bottom: 74px;
     margin: 0;
   }
 
@@ -178,7 +181,15 @@
   }
 
   .footer-logo {
-    padding-bottom: 25px;
+    width: 123px;
+    height: 16px;
+  }
+
+  .footer-logo-link {
+    margin-bottom: 25px;
+  }
+  .subscribe-input {
+    width: 178px;
   }
 }
 /* @media screen and (min-width: 1280px) */
