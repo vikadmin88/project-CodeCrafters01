@@ -11,7 +11,7 @@
   font-weight: 400;
   font-size: 28px;
   line-height: 1.14;
-  letter-spacing: -0.02;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
   background-color: var(--cb-main);
   text-align: center;
@@ -22,13 +22,14 @@
   font-size: 28px;
   font-weight: 400;
   line-height: 1.14;
-  letter-spacing: -0.02px;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
 }
   
 .marquee-inner {
   display: flex;
-  border: 1px solid var(--c-main-tr);
+  border-top: 1px solid rgba(255, 255, 255, 0.20);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.20);
 }
   
 .marquee-line {
