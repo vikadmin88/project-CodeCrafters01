@@ -122,9 +122,6 @@
   .reviews-list-item{
     width: calc((100% - 20px) / 2);
   }
-  .reviews-text-p {
-    max-width: 490px;
-  }
   .reviews-list-item:last-child {
     display: flex;
   }
