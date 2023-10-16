@@ -5,6 +5,7 @@
   --cb-main: #121212;
   --c-accent: #BEA69E;
   --cb-hero: #1D1D1D;
+  --ff-main: 'DM Sans', sans-serif;
 }
 
 ul,
@@ -58,7 +59,7 @@ body {
 
 .container {
   min-width: 320px;
-  max-width: 374px;
+  max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
   /* overflow-x: auto; */
