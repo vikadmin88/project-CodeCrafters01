@@ -35,24 +35,20 @@
 
 .contacts-type {
   color: var(--c-main);
-  font-size: 14px;
   line-height: 1.28;
   text-transform: uppercase;
 }
 .contacts-tel {
   color: var(--c-main);
-  font-size: 14px;
   line-height: 1.28;
 }
 .contacts-type-one {
   color: var(--c-main);
-  font-size: 14px;
   line-height: 1.28;
 }
 
 .footer-socials-link {
   color: var(--c-main);
-  font-size: 14px;
   line-height: normal;
   text-transform: uppercase;
 }
@@ -120,7 +116,7 @@
   justify-content: space-between;
   align-items: center;
 }
-/*@media screen and (min-width: 768px)*/
+/*@media screen and  (min-width: 768px)*/
 @media screen and (min-width: 768px) {
   .footer-class {
     background-image: url('../img/footer/footer_bg_tab.png');
@@ -171,12 +167,10 @@
   }
 
   .privacy-policy {
-    font-size: 14px;
     line-height: 1.28;
   }
 
   .focus-frame {
-    font-size: 14px;
     line-height: 1.28;
   }
 }
