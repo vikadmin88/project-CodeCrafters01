@@ -120,7 +120,7 @@
   justify-content: space-between;
   align-items: center;
 }
-/* @media screen and (min-width: 768px)*/
+/*@media screen and (min-width: 768px)*/
 @media screen and (min-width: 768px) {
   .footer-class {
     background-image: url('../img/footer/footer_bg_tab.png');
