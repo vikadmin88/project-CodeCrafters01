@@ -4,14 +4,20 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/project-CodeCrafters01/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <title>Focus.Frame</title>
-    <script type="module" crossorigin src="/project-CodeCrafters01/assets/index-da5d7e24.js"></script>
-    <link rel="stylesheet" href="/project-CodeCrafters01/assets/index-b2cd5382.css">
+    <script type="module" crossorigin src="/project-CodeCrafters01/assets/index-a98ce9fc.js"></script>
+    <link rel="stylesheet" href="/project-CodeCrafters01/assets/index-13f3ca97.css">
   </head>
   <body>
     <header class="header">
@@ -65,17 +71,284 @@
 </header>
 
     <main>
-      
+      <section class="hero-section" id="hero">
+    <div class="container">
+        <div class="hero-section-container">
+            <div class="two-pictures">
+                <div class="text-wrap">
+                    <h1 class="hero-title-h">
+                        Discover the magic of
+                        <span class="hero-title-span"> photography </span> in our school
+                    </h1>
+                    <p class="hero-title-p">
+                        Our photography school offers an unforgettable journey, where you
+                        can learn the basics of composition, master technical skills,
+                        translate your unique ideas.
+                    </p>
+                </div>
+
+                <div class="star-icon">
+                    <div class="photos">
+                        <div class="icon">
+                          <!--  <picture>
+                            <source srcset="
+                            ./img/hero/hero_students3_mob.png 1x,
+                            ./img/hero/hero_students3_mob@2x.png 2x
+                            " media="(max-width:767.98px)">
+                            <source srcset="
+                            ./img/hero/hero_students3_tab.png 1x,
+                            ./img/hero/hero_students3_tab@2x.png 2x
+                            " media="(min-width:768px)">
+                            <source srcset="
+                            ./img/hero/hero_students3.png 1x,
+                            ./img/hero/hero_students3@2x.png 2x
+                            " media="(min-width:1280px)">
+                            <source srcset="
+                            ./img/hero/hero_students3.png 1x,
+                            ./img/hero/hero_students3@2x.png 2x
+                            " media="(min-width:1440px)">
+                            <img class="icon-girl2" src="./img/hero/hero_students3.png" alt="girl" width="54" height="54">
+                            </picture> -->
+
+                            <img class="icon-girl2" src="/project-CodeCrafters01/assets/hero_students3-c19c7581.png" srcset="/project-CodeCrafters01/assets/hero_students3_mob-75ad0d25.png 1x, /project-CodeCrafters01/assets/hero_students3_mob@2x-1a7e0c96.png 2x" alt="girl"
+                                width="54" height="54" /> 
+
+                                <!-- <picture>
+                                <source srcset="
+                            ./img/hero/hero_students2_mob.png 1x,
+                            ./img/hero/hero_students2_mob@2x.png 2x
+                            " media="(max-width:767.98px)">
+                            <source srcset="
+                            ./img/hero/hero_students2_tab.png 1x,
+                            ./img/hero/hero_students2_tab@2x.png 2x
+                            " media="(min-width:768px)">
+                            <source srcset="
+                            ./img/hero/hero_students2.png 1x,
+                            ./img/hero/hero_students2@2x.png 2x
+                            " media="(min-width:1280px)">
+                            <source srcset="
+                            ./img/hero/hero_students2.png 1x,
+                            ./img/hero/hero_students2@2x.png 2x
+                            " media="(min-width:1440px)">
+                            <img class="icon-boy1" src="./img/hero/hero_students2.png" alt="boy" width="54"
+                                height="54" />
+                                </picture> -->
+                                
+
+
+                           <img class="icon-boy1" src="/project-CodeCrafters01/assets/hero_students2-a7d2afeb.png" srcset="data:image/png;base64,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 1x, /project-CodeCrafters01/assets/hero_students2_mob@2x-98b52e48.png 2x" alt="boy" width="54"
+                                height="54" /> 
+
+                              <!--  <picture>
+                                 <source srcset="
+                            ./img/hero/hero_students1_mob.png 1x,
+                            ./img/hero/hero_students1_mob@2x.png 2x
+                            " media="(max-width:767.98px)">
+                            <source srcset="
+                            ./img/hero/hero_students1_tab.png 1x,
+                            ./img/hero/hero_students1_tab@2x.png 2x
+                            " media="(min-width:768px)">
+                            <source srcset="
+                            ./img/hero/hero_students1.png 1x,
+                            ./img/hero/hero_students1@2x.png 2x
+                            " media="(min-width:1280px)">
+                            <source srcset="
+                            ./img/hero/hero_students1.png 1x,
+                            ./img/hero/hero_students1@2x.png 2x
+                            " media="(min-width:1440px)">
+                            <img class="icon-girl1" src="./img/hero/hero_students1.png" alt="girl" width="54"
+                                height="54" />
+                                </picture> -->
+                                
+                                
+                           <img class="icon-girl1" src="/project-CodeCrafters01/assets/hero_students1-99899cea.png" srcset="/project-CodeCrafters01/assets/hero_students1-99899cea.png 1x, /project-CodeCrafters01/assets/hero_students1@2x-506e4a2f.png 2x" alt="girl" width="54"
+                                height="54" /> 
+                               
+                        </div>
+                    </div>
+                  
+                        <a href="#reviews" class="hero-text-icon"> Our happy students 
+                        
+                            <svg class="hero-arrow" width="18" height="18">
+                                <use href="/project-CodeCrafters01/assets/icons-61f7a12b.svg#arrow_to_right"></use>
+                            </svg> </a>
+                      
+                  
+                    <div class="star">
+                        <div class="hero-icon-star">
+                          
+                                <svg class="hero-star" width="20" height="20">
+                                    <use href="/project-CodeCrafters01/assets/icons-61f7a12b.svg#star"></use>
+                                </svg>
+                           
+                        </div>
+                        <div class="hero-text-p12">
+                            <p class="hero-text-star-p1">Reviews</p>
+                            <p class="hero-text-star-p2">+1500</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-img-desktop">
+                <picture>
+                    <source srcset="/project-CodeCrafters01/assets/hero_man_mob-55437fbf.webp 1x, /project-CodeCrafters01/assets/hero_man_mob@2x-9203529a.webp 2x" media="(max-width:767.98px)" />
+                    <source srcset="/project-CodeCrafters01/assets/hero_man_tab-046bd4cf.webp 1x, /project-CodeCrafters01/assets/hero_man_tab@2x-3516b452.webp 2x" media="(min-width:768px)" />
+                    <source srcset="/project-CodeCrafters01/assets/hero_man_desk-1d05ccac.webp 1x, /project-CodeCrafters01/assets/hero_man_desk@2x-13d1af89.webp 2x" media="(min-width:1280px)" />
+                    <source srcset="/project-CodeCrafters01/assets/hero_man_desk-1d05ccac.webp 1x, /project-CodeCrafters01/assets/hero_man_desk@2x-13d1af89.webp 2x" media="(min-width:1440px)" />
+                    <img src="/project-CodeCrafters01/assets/hero_man_desk-1d05ccac.webp" alt="photographer" class="hero-img" width="259" height="314"/>
+                </picture>
+            </div>
+        </div>
+    </div>
+</section>
       <!-- <link href="https://fonts.googleapis.com/css?family=Pridi:600" rel="stylesheet"> -->
 
 <div class="marquee">
-    <div class="marquee-inner">
-       <p class="marquee-line">Master <span class="marquee-span">your photography</span> skills with us!</p>
-       <p class="marquee-line">Master <span class="marquee-span">your photography</span> skills with us!</p>
-    </div>
+  <div class="marquee-inner">
+    <p class="marquee-line">
+      Master <span class="marquee-span">your photography</span> skills with us!
+    </p>
+    <p class="marquee-line">
+      Master <span class="marquee-span">your photography</span> skills with us!
+    </p>
+  </div>
 </div>
-      
-      
+
+      <section class="section-aboutus">
+  <div class="container">
+    <h2 class="aboutus-title">
+      About<span class="aboutus-title-span"> Us</span>
+    </h2>
+    <div class="aboutus-block">
+      <div class="container-img">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              ../img/about_us/aboutus_desk2.webp    1x,
+              ../img/about_us/aboutus_desk2@2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/about_us/aboutus_desk.webp    1x,
+              ../img/about_us/aboutus_desk@2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ../img/about_us/aboutus_tab.webp    1x,
+              ../img/about_us/aboutus_tab@2x.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ../img/about_us/aboutus_mob.webp    1x,
+              ../img/about_us/aboutus_mob@2x.webp 2x
+            "
+          />
+          <img
+            class="aboutus-img"
+            src="../img/about_us/aboutus_mob.webp"
+            alt="Camera"
+            width=""
+          />
+        </picture>
+      </div>
+
+      <ul class="aboutus-text-ul">
+        <li class="aboutus-li">
+          <p class="text-one">
+            Our photography school is designed to teach you everything you need
+            to know about this magical art. Regardless of your experience or
+            skill level, we offer a wide range of courses to suit your needs and
+            interests. Our teaching team consists of experienced photographers
+            who have many years of experience in this field. They strive not
+            only to share their knowledge, but also to inspire you to develop
+            and express your unique creativity.
+          </p>
+        </li>
+        <li class="aboutus-li">
+          <p class="text-two">
+            Our courses cover a wide range of topics, from the basics of
+            photography and equipment use to professional image processing and
+            creating impressive compositions. You will have the opportunity to
+            learn the technical aspects of photography, discover your own style
+            and develop your own visual language.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <!-- Our courses -->
+<section class="course-section" id="our-coursers">
+  <div class="container">
+    <div class="course-title-wrap">
+      <h2 class="course-title">Our <span class="course-span">Courses</span></h2>
+      <p class="course-text">
+        At our photography school, we offer a variety of courses that cover all
+        aspects of this fascinating art. Regardless of your experience or skill
+        level, we have courses to suit your needs and goals.
+      </p>
+    </div>
+    <ol class="course-list">
+      <li class="course-list-item">
+        <div class="course-box">
+          <p class="course-box-number">01</p>
+          <a href="#sign-up" class="course-box-link" width="32" height="32">
+            <svg class="course-box-icon" width="20" height="20">
+              <use href="../img/icons.svg#arrow"></use>
+            </svg>
+          </a>
+        </div>
+        <h3 class="course-box-title">Basics of photography</h3>
+        <p class="course-box-text">
+          During this course, you will be able to familiarize yourself with
+          different types of cameras, learn the basics of composition.
+        </p>
+      </li>
+
+      <li class="course-list-item">
+        <div class="course-box">
+          <p class="course-box-number">02</p>
+          <a href="#sign-up" class="course-box-link">
+            <svg class="course-box-icon" width="20" height="20">
+              <use href="../img/icons.svg#arrow"></use>
+            </svg>
+          </a>
+        </div>
+        <h3 class="course-box-title">Landscape photography</h3>
+        <p class="course-box-text">
+          In this course, you'll learn how to choose the right angles, frame
+          landscapes, and create depth and perspective in your images.
+        </p>
+      </li>
+
+      <li class="course-list-item">
+        <div class="course-box">
+          <p class="course-box-number">03</p>
+          <a href="#sign-up" class="course-box-link" width="32" height="32">
+            <svg class="course-box-icon" width="20" height="20">
+              <use href="../img/icons.svg#arrow"></use>
+            </svg>
+          </a>
+        </div>
+        <h3 class="course-box-title">Portrait photography</h3>
+        <p class="course-box-text">
+          During this course, you will learn to choose the right lighting,
+          reproduce the mood and expressions on the faces of the models.
+        </p>
+      </li>
+    </ol>
+  </div>
+</section>
+
       <section class="our-mentors" id="our-mentors">
     <div class="container">
         <h2 class="mentors-title">Our <span class="accent">Mentors</span> </h2>
@@ -153,10 +426,247 @@
     </div>
   </div>
 </section>
-      
+      <section class="reviews-section" id="reviews">
+  <div class="container">
+    <h2 class="reviews-title">Reviews</h2>
+    <ul class="reviews-list">
+      <li class="reviews-list-item">
+        <div class="reviews-person">
+          <img
+            class="reviews-person-img"
+            srcset="/project-CodeCrafters01/assets/reviews_abraham-0e081f2f.png 1x, /project-CodeCrafters01/assets/reviews_abraham@2x-cf0d8242.png 2x"
+            src="/project-CodeCrafters01/assets/reviews_abraham@2x-cf0d8242.png"
+            alt="AbrahamBaker"
+            width="56"
+            height="56"
+          />
+          <div class="reviews-person-info">
+            <h3 class="reviews-person-name">Abraham Baker</h3>
+            <p class="reviews-person-position">Student</p>
+          </div>
+        </div>
+        <ul class="reviews-star-list">
+          <li>
+            <svg class="reviews-svg-star" width="16" height="16">
+              <use href="../img/icons.svg#review-star"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="reviews-svg-star" width="16" height="16">
+              <use href="../img/icons.svg#review-star"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="reviews-svg-star" width="16" height="16">
+              <use href="../img/icons.svg#review-star"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="reviews-svg-star" width="16" height="16">
+              <use href="../img/icons.svg#review-star"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="reviews-svg-star-off" width="16" height="16">
+              <use href="../img/icons.svg#review-star"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="reviews-text-p">
+          I am very pleased that I decided to enroll in photography school. The
+          teachers turned out to be very talented and experienced professionals
+          who share their knowledge and are dedicated to their work. I was able
+          to expand my skills and discover my own style.
+        </p>
+      </li>
+      <li class="reviews-list-item">
+        <div class="reviews-person">
+          <img
+            class="reviews-person-img"
+            srcset="/project-CodeCrafters01/assets/reviews_amanda-06d9cc26.png 1x, /project-CodeCrafters01/assets/reviews_amanda@2x-74fed0d7.png 2x"
+            src="/project-CodeCrafters01/assets/reviews_amanda@2x-74fed0d7.png"
+            alt="AbrahamBaker"
+            width="56"
+            height="56"
+          />
+          <div class="reviews-person-info">
+            <h3 class="reviews-person-name">Amanda Lowery</h3>
+            <p class="reviews-person-position">Student</p>
+          </div>
+        </div>
+        <ul class="reviews-star-list">
+          <li>
+            <svg class="reviews-svg-star" width="16" height="16">
+              <use href="../img/icons.svg#review-star"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="reviews-svg-star" width="16" height="16">
+              <use href="../img/icons.svg#review-star"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="reviews-svg-star" width="16" height="16">
+              <use href="../img/icons.svg#review-star"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="reviews-svg-star" width="16" height="16">
+              <use href="../img/icons.svg#review-star"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="reviews-svg-star-off" width="16" height="16">
+              <use href="../img/icons.svg#review-star"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="reviews-text-p">
+          The courses at the photography school exceeded all my expectations. I
+          gained not only technical knowledge, but also inspiration and
+          motivation to reach new heights in my creativity. Hands-on classes and
+          workshops helped me understand different styles of photography.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
     </main>
-    
-    
+    <!-- Footer -->
+<footer class="footer-class" id="contacts">
+  <div class="container">
+    <div class="footer-container">
+      <div class="footer-address-container">
+        <a href="./index.html" class="footer-logo-link">
+          <svg class="footer-logo" width="127" height="20">
+            <use href="/project-CodeCrafters01/assets/icons-61f7a12b.svg#logo"></use>
+          </svg>
+        </a>
+        <!-- Contacts -->
+        <address class="contacts-container">
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <span class="contacts-type">UK:</span>
+              <a class="contacts-tel" href="tel:+38 066 543 8912"
+                >+380665438912</a
+              >
+            </li>
+            <li class="contacts-item">
+              <p class="contacts-type-one">Ukraine, Kyiv</p>
+            </li>
+          </ul>
+        </address>
+      </div>
+      <div class="footer-block">
+        <ul class="footer-socials-list">
+          <li class="footer-socials-item">
+            <a
+              class="footer-socials-link"
+              href="https://www.instagram.com/goitclub/"
+              >Instagram</a
+            >
+          </li>
+          <li class="footer-socials-item">
+            <a
+              class="footer-socials-link"
+              href="https://www.facebook.com/goITclub/"
+              >Facebook</a
+            >
+          </li>
+          <li class="footer-socials-item">
+            <a class="footer-socials-link" href="https://www.youtube.com/c/GoIT"
+              >YouTube</a
+            >
+          </li>
+        </ul>
+
+        <ul class="footer-socials-list">
+          <li class="footer-socials-item">
+            <a class="footer-socials-link" href="#">About us</a>
+          </li>
+          <li class="footer-socials-item">
+            <a class="footer-socials-link" href="#">Our courses</a>
+          </li>
+          <li class="footer-socials-item">
+            <a class="footer-socials-link" href="#">Our mentors</a>
+          </li>
+          <li class="footer-socials-item">
+            <a class="footer-socials-link" href="#">Reviews</a>
+          </li>
+          <li class="footer-socials-item">
+            <a class="footer-socials-link" href="#">Contacts</a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="subscribe-form">
+        <input
+          class="subscribe-input"
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+        />
+
+        <button class="subscribe-button" type="submit">Go</button>
+      </form>
+    </div>
+    <div class="privacy-all-rights">
+      <div class="privacy-container">
+        <a class="privacy-policy" href="#">Privacy Policy</a>
+        <a class="privacy-policy" href="#">Public Offering Agreement</a>
+      </div>
+      <div class="all-rights-container">
+        <p class="focus-frame">2023 Focus Frame</p>
+        <p class="focus-frame">© All rights reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- Modal menu -->
+<div class="backdrop" data-modal>
+  <div class="menu-container">
+    <button class="menu-close" type="button" data-modal-close>
+      <svg class="mob-menu-x" width="40" height="40">
+        <use href="/project-CodeCrafters01/assets/icons-61f7a12b.svg#mob-menu-x"></use>
+      </svg>
+    </button>
+
+    <ul class="menu-list">
+      <li class="menu-item">
+        <a class="menu-link current" href="#about-us">About us</a>
+      </li>
+      <li class="menu-item">
+        <a class="menu-link" href="#our-courses">Our courses</a>
+      </li>
+      <li class="menu-item">
+        <a class="menu-link" href="#our-mentors">Our mentors</a>
+      </li>
+      <li class="menu-item">
+        <a class="menu-link" href="#reviews">Reviews</a>
+      </li>
+      <li class="menu-item">
+        <a class="menu-link" href="#contacts">contacts</a>
+      </li>
+    </ul>
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="/project-CodeCrafters01/assets/modal_menu_tab-78d8faf8.jpg 1x, /project-CodeCrafters01/assets/modal_menu_tab@2x-bf9a8328.jpg 2x" />
+      <source
+        media="(max-width: 767px)"
+        srcset="/project-CodeCrafters01/assets/modal_menu_mob-c31a5f3a.jpg 1x, /project-CodeCrafters01/assets/modal_menu_mob@2x-80984e83.jpg 2x /" />
+      <img
+        class="photoaparat"
+        src="/project-CodeCrafters01/assets/modal_menu_tab-78d8faf8.jpg"
+        alt="Photoaparat"
+        width="480"
+        height="476"
+    /></picture>
+  </div>
+</div>
+
     
   </body>
 </html>
