@@ -4,7 +4,7 @@
 *::after {
   box-sizing: border-box;
 }
-  
+
 .marquee {
   color: var(--c-accent);
   overflow: hidden;
@@ -15,7 +15,7 @@
   text-transform: uppercase;
   background-color: var(--cb-main);
   text-align: center;
-  margin: 40px 0 40px;
+  margin-bottom: 40px;
 }
 .marquee-span{
   color: var(--c-main);
@@ -25,13 +25,13 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
-  
+
 .marquee-inner {
   display: flex;
   border-top: 1px solid rgba(255, 255, 255, 0.20);
   border-bottom: 1px solid rgba(255, 255, 255, 0.20);
 }
-  
+
 .marquee-line {
   flex-shrink: 0;
   margin: 0;
@@ -43,12 +43,12 @@
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
-  
+
 @keyframes marqueeLine {
   from {
     transform: translateX(0);
   }
-    
+
   to {
     transform: translateX(-100%);
   }
@@ -57,7 +57,7 @@
   .marquee {
     font-size: 40px;
     line-height: 1.25;
-    margin: 50px 0 50px;
+    margin-bottom: 50px;
   }
   .marquee-span{
     font-size: 40px;
@@ -72,7 +72,7 @@
   .marquee {
     font-size: 59px;
     line-height: 1.08;
-    margin: 75px 0 75px;
+    margin-bottom: 75px;
   }
   .marquee-span{
     font-size: 59px;
@@ -87,7 +87,6 @@
   .marquee {
     font-size: 59px;
     line-height: 1.08;
-    margin: 75px 0 75px;
   }
   .marquee-span{
     font-size: 59px;
