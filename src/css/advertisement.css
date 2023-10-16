@@ -11,23 +11,25 @@
   font-weight: 400;
   font-size: 28px;
   line-height: 1.14;
-  letter-spacing: -0.02;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
   background-color: var(--cb-main);
   text-align: center;
+  margin: 40px 0 40px;
 }
 .marquee-span{
   color: var(--c-main);
   font-size: 28px;
   font-weight: 400;
   line-height: 1.14;
-  letter-spacing: -0.02px;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
-  background-color: var(--cb-main);
 }
   
 .marquee-inner {
   display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.20);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.20);
 }
   
 .marquee-line {
@@ -55,6 +57,7 @@
   .marquee {
     font-size: 40px;
     line-height: 1.25;
+    margin: 50px 0 50px;
   }
   .marquee-span{
     font-size: 40px;
@@ -69,6 +72,7 @@
   .marquee {
     font-size: 59px;
     line-height: 1.08;
+    margin: 75px 0 75px;
   }
   .marquee-span{
     font-size: 59px;
@@ -83,6 +87,7 @@
   .marquee {
     font-size: 59px;
     line-height: 1.08;
+    margin: 75px 0 75px;
   }
   .marquee-span{
     font-size: 59px;
