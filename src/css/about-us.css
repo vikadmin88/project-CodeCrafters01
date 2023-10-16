@@ -1,0 +1,154 @@
+/* BASE class*/
+.section-aboutus {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-aboutus .container {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.aboutus-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+}
+
+.aboutus-title-span {
+  color: #bea69e;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02333em;
+}
+.aboutus-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.container-img {
+  width: 335px;
+}
+
+/* .aboutus-img {
+} */
+
+.aboutus-text-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.aboutus-li {
+  color: var(--white, #fff);
+  font-size: 14px;
+  line-height: 1.125;
+  letter-spacing: -0.02em;
+}
+
+.text-two {
+  width: 335px;
+  height: 127px;
+}
+
+.text-one {
+  width: 335px;
+}
+
+/* 768!!!! */
+@media screen and (min-width: 768px) {
+  .section-aboutus {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .section-aboutus .container {
+    gap: 50px;
+  }
+  .aboutus-title {
+    font-size: 48px;
+    letter-spacing: -0.04em;
+    margin-bottom: 50px;
+  }
+  .aboutus-block {
+    gap: 50px;
+  }
+  .container-img {
+    width: 704px;
+    height: 340px;
+  }
+  .aboutus-text-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .aboutus-li {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+  .text-two {
+    width: 280px;
+    height: 215px;
+  }
+
+  .text-one {
+    width: 280px;
+    height: 240px;
+  }
+}
+/* 1280!!!!! */
+@media screen and (min-width: 1280px) {
+  .section-aboutus {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .aboutus-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    flex-direction: row;
+  }
+  .container-img {
+    width: 488px;
+    height: 260px;
+  }
+  .aboutus-text-ul {
+    gap: 20px;
+  }
+  .text-two {
+    width: 264px;
+  }
+  .text-one {
+    width: 268px;
+    height: 260px;
+  }
+}
+
+/* 1440!!!!! */
+@media screen and (min-width: 1440px) {
+  .aboutus-block {
+    gap: 50px;
+  }
+  .container-img {
+    height: 240px;
+    width: 560px;
+  }
+  .aboutus-text-ul {
+    gap: 40px;
+  }
+  .text-two {
+    width: 276px;
+  }
+  .text-one {
+    width: 314px;
+    height: 220px;
+  }
+}
