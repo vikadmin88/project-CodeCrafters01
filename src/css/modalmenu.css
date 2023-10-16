@@ -84,7 +84,7 @@
     stroke: var(--cb-main, #121212);
 }
 
-/* Mobila screen */
+/* Mobila  */
 @media screen and (max-width: 767px) {
     .menu-container {
         width: 218px;
