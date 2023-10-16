@@ -46,19 +46,13 @@
 }
 .contacts-type-one {
   color: var(--c-main);
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.28;
 }
 
 .footer-socials-link {
   color: var(--c-main);
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
 }
@@ -104,10 +98,7 @@
 
 .contacts-type-five {
   color: var(--c-main);
-  font-family: DM Sans;
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.33;
 }
 
@@ -129,20 +120,8 @@
   justify-content: space-between;
   align-items: center;
 }
-/* @media screen and (min-width: 320px) */
-
-@media (min-resolution: 192dpi) and (max-width: 767px) {
-  .footer-class {
-    background-image: url('../img/footer/footer_bg_mob@2x.png');
-  }
-}
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
   .footer-class {
     background-image: url('../img/footer/footer_bg_tab.png');
   }
@@ -152,6 +131,11 @@
     padding-top: 50px;
     padding-bottom: 25px;
     margin-bottom: 0;
+  }
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .footer-container {
@@ -199,21 +183,22 @@
 
 /* @media screen and (min-width: 1280px) */
 @media screen and (min-width: 1280px) {
+  .footer-class {
+    background-image: url('../img/footer/footer_bg_desk.png');
+  }
+
+  .footer-class {
+    margin-top: 75px;
+  }
+
   .container {
     max-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
   }
 
-  .footer-class {
-    background-image: url('../img/footer/footer_bg_desk.png');
-  }
-
   .subscribe-form {
     gap: 16px;
-  }
-  .footer-class {
-    margin-top: 75px;
   }
 
   .footer-container {
@@ -233,13 +218,13 @@
 }
 /* @media screen and (min-width: 1440px) */
 @media screen and (min-width: 1440px) {
+  .footer-class {
+    background-image: url('../img/footer/footer_bg_desk2.png');
+  }
   .container {
     max-width: 1440px;
   }
 
-  .footer-class {
-    background-image: url('../img/footer/footer_bg_desk2.png');
-  }
   .footer-block {
     gap: 100px;
   }
