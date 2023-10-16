@@ -88,7 +88,7 @@
 @media screen and (max-width: 767px) {
     .menu-container {
         width: 218px;
-        height: 812px;
+        height: 100vh;
     }
 
     .menu-close {
