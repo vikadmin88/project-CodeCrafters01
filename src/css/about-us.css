@@ -11,7 +11,7 @@
 }
 
 .aboutus-title {
-  color: #fff;
+  color: var(--c-main);
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
@@ -20,10 +20,10 @@
 }
 
 .aboutus-title-span {
-  color: #bea69e;
+  color: var(--c-accent);
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: -0.02333em;
+  letter-spacing: -0.02em;
 }
 .aboutus-block {
   display: flex;
@@ -33,12 +33,9 @@
   gap: 40px;
 }
 
-.container-img {
+.aboutus-img {
   width: 335px;
 }
-
-/* .aboutus-img {
-} */
 
 .aboutus-text-ul {
   display: flex;
@@ -47,7 +44,7 @@
   gap: 20px;
 }
 .aboutus-li {
-  color: var(--white, #fff);
+  color: var(--c-main);
   font-size: 14px;
   line-height: 1.125;
   letter-spacing: -0.02em;
@@ -55,7 +52,6 @@
 
 .text-two {
   width: 335px;
-  height: 127px;
 }
 
 .text-one {
@@ -79,12 +75,10 @@
   .aboutus-block {
     gap: 50px;
   }
-  .container-img {
+  .aboutus-img {
     width: 704px;
-    height: 340px;
   }
   .aboutus-text-ul {
-    display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 40px;
@@ -96,12 +90,10 @@
   }
   .text-two {
     width: 280px;
-    height: 215px;
   }
 
   .text-one {
     width: 280px;
-    height: 240px;
   }
 }
 /* 1280!!!!! */
@@ -111,14 +103,12 @@
     padding-bottom: 75px;
   }
   .aboutus-block {
-    display: flex;
     align-items: flex-start;
     gap: 40px;
     flex-direction: row;
   }
-  .container-img {
+  .aboutus-img {
     width: 488px;
-    height: 260px;
   }
   .aboutus-text-ul {
     gap: 20px;
@@ -128,17 +118,16 @@
   }
   .text-one {
     width: 268px;
-    height: 260px;
   }
 }
 
 /* 1440!!!!! */
 @media screen and (min-width: 1440px) {
   .aboutus-block {
+    align-items: center;
     gap: 50px;
   }
-  .container-img {
-    height: 240px;
+  .aboutus-img {
     width: 560px;
   }
   .aboutus-text-ul {
@@ -149,6 +138,5 @@
   }
   .text-one {
     width: 314px;
-    height: 220px;
   }
 }
