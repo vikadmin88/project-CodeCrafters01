@@ -5,10 +5,10 @@
       <p class="signup-note">Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.</p>
       <form action="#" class="signup-form" name="signup-form">
         <label class="input-label">
-          <input class="input-text" type="text" name="user-name" id="user-name" placeholder="Enter your name" required>
+          <input class="input-text" pattern="[a-zA-Z]{4,20}" type="text" name="user-name" id="user-name" placeholder="Enter your name" required>
         </label>
         <label class="input-label">
-          <input class="input-text" type="text" name="user-emeil" id="user-emeil" placeholder="Enter your email" required>
+          <input class="input-text" type="email" name="user-emeil" id="user-emeil" placeholder="Enter your email" required>
         </label>
         <label class="input-label">
           <textarea class="input-textarea" name="user-message" id="user-message" placeholder="Message" required></textarea>
