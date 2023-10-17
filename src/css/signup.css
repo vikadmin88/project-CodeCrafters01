@@ -121,17 +121,11 @@
 }
 .lens-image {
   position: absolute;
-  top: 76px;
-  left: -25px;
+  top: 90px;
+  left: -10px;
+  width: 150px;
+  height: 142px;
 }
-/*
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 163px;
-    height: 154px;
-     */
 .camera-place {
   position: relative;
   width: 340px;
@@ -141,13 +135,11 @@
 }
 .camera-image {
   position: absolute;
-  top: 139px;
+  top: 156px;
   left: 50%;
   transform: translateX(-50%);
-  width: 254px;
-  height: 313px;
-  /* top: 156px;
-  left: 50px; */
+  width: 240px;
+  height: 296px;
 }
 @media screen and (min-width: 768px) {
   .signup-section {
@@ -225,5 +217,14 @@
   }
   .camera-place {
     width: 350px;
+  }
+  .lens-image {
+    top: 88px;
+    width: 163px;
+    height: 154px;
+  }
+  .camera-image {
+    width: 254px;
+    height: 313px;
   }
 }
