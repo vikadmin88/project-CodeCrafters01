@@ -363,21 +363,31 @@
     width: 54px;
     height: 54px;
   }
-}
-
-@media screen and (min-width: 768px) {
   .icon-girl2 {
     width: 54px;
     height: 54px;
   }
-}
-
-@media screen and (min-width: 768px) {
   .icon-boy1 {
     width: 54px;
     height: 54px;
   }
 }
+
+@media screen and (min-width: 1280px) and (min-width: 1440px) {
+  .icon-girl1 {
+    width: 54px;
+    height: 54px;
+  }
+  .icon-girl2 {
+    width: 54px;
+    height: 54px;
+  }
+  .icon-boy1 {
+    width: 54px;
+    height: 54px;
+  }
+}
+
 /*Tablet*/
 @media screen and (min-width: 768px) {
   .container {
