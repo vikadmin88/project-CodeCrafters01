@@ -363,16 +363,10 @@
     width: 54px;
     height: 54px;
   }
-}
-
-@media screen and (min-width: 768px) {
   .icon-girl2 {
     width: 54px;
     height: 54px;
   }
-}
-
-@media screen and (min-width: 768px) {
   .icon-boy1 {
     width: 54px;
     height: 54px;

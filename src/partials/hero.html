@@ -17,39 +17,21 @@
         <div class="star-icon">
           <div class="photos">
             <div class="icon">
-              <img
-                class="icon-girl2"
-                src="./img/hero/hero_students3.png"
-                srcset="
-                  ./img/hero/hero_students3_mob.png    1x,
-                  ./img/hero/hero_students3_mob@2x.png 2x
-                "
-                alt="girl"
-                width="54"
-                height="54"
-              />
-              <img
-                class="icon-boy1"
-                src="./img/hero/hero_students2.png"
-                srcset="
-                  ./img/hero/hero_students2_mob.png    1x,
-                  ./img/hero/hero_students2_mob@2x.png 2x
-                "
-                alt="boy"
-                width="54"
-                height="54"
-              />
-              <img
-                class="icon-girl1"
-                src="./img/hero/hero_students1.png"
-                srcset="
-                  ./img/hero/hero_students1.png    1x,
-                  ./img/hero/hero_students1@2x.png 2x
-                "
-                alt="girl"
-                width="54"
-                height="54"
-              />
+              <picture>
+                <source media="(min-width:768px)" srcset="./img/hero/hero_students1.png    1x, ./img/hero/hero_students1@2x.png 2x" />
+                <source media="(max-width:767.8px)" srcset=" ./img/hero/hero_students1_mob.png    1x, ./img/hero/hero_students1_mob@2x.png 2x" />
+                <img class="icon-girl1" src="./img/hero/hero_students1_mob.png" alt="girl" width="44" height="44"/>
+              </picture>
+              <picture>
+                <source media="(min-width:768px)" srcset="./img/hero/hero_students2.png    1x, ./img/hero/hero_students2@2x.png 2x"/>
+                <source media="(max-width:767.98px)" srcset="./img/hero/hero_students2_mob.png    1x, ./img/hero/hero_students2_mob@2x.png 2x"/>
+                <img class="icon-boy1" src="./img/hero/hero_students2_mob.png" alt="girl" width="44" height="44"/>
+              </picture>
+              <picture>
+                <source media="(min-width:768px)" srcset="./img/hero/hero_students3.png    1x, ./img/hero/hero_students3@2x.png 2x"/>
+                <source media="(max-width:767.98px)" srcset="./img/hero/hero_students3_mob.png    1x, ./img/hero/hero_students3_mob@2x.png 2x"/>
+                <img class="icon-girl2" src="./img/hero/hero_students3_mob.png" alt="girl" width="44" height="44"/>
+              </picture>
             </div>
           </div>
 
