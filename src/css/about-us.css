@@ -51,11 +51,11 @@
 }
 
 .text-two {
-  width: 335px;
+  max-width: 335px;
 }
 
 .text-one {
-  width: 335px;
+  max-width: 335px;
 }
 
 /* 768!!!! */
@@ -89,11 +89,11 @@
     letter-spacing: -0.02em;
   }
   .text-two {
-    width: 280px;
+    max-width: 280px;
   }
 
   .text-one {
-    width: 280px;
+    max-width: 280px;
   }
 }
 /* 1280!!!!! */
@@ -114,10 +114,10 @@
     gap: 20px;
   }
   .text-two {
-    width: 264px;
+    max-width: 264px;
   }
   .text-one {
-    width: 268px;
+    max-width: 268px;
   }
 }
 
@@ -134,9 +134,9 @@
     gap: 40px;
   }
   .text-two {
-    width: 276px;
+    max-width: 276px;
   }
   .text-one {
-    width: 314px;
+    max-width: 314px;
   }
 }
