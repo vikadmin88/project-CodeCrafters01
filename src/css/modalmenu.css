@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     transform: translateX(100%);
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms ease-in;
     pointer-events: painted;
     z-index: 9999;
 }
@@ -27,7 +27,6 @@
 
 .is-open {
     transform: translateX(0);
-    transition: 250ms ease-in;
 }
 
 .menu-close {
