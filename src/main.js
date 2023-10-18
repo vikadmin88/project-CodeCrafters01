@@ -15,13 +15,3 @@
   }
 
 })();
-
-document.addEventListener("DOMContentLoaded", function () {
-  var menuLinks = document.querySelectorAll(".menu-link");
-  menuLinks.forEach(function (link) {
-      link.addEventListener("click", function () {
-          // Закриття мобільного меню
-          document.querySelector(".mobile-menu").style.display = "none";
-      });
-  });
-});
